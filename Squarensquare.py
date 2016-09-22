@@ -1,4 +1,3 @@
-
 import sys,os,subprocess,io,time
 sys.path.insert(0,"/sdcard/")
 try:
@@ -13,7 +12,6 @@ while True:
     squarenumbers = originsquare*originsquare
     originsquare = originsquare + 1
     print(squarenumbers)
-    #time.sleep(0.2)
     gone = gone + 1
     if gone == 1000 or gone>1000:
         try:
